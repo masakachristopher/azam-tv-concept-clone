@@ -7,8 +7,81 @@
     <title>Azam Tv</title>
 </head>
 <body>
-    <h1>Hello Azam tv clone</h1>
-    <img src="./src/assets/img/imgp.jpg" alt="image" >
+    <header class="sticky__header header">
+        <div class="header__left">
+            <!-- <img src="./src/assets/img/logo.png" alt="" class="logo"> -->
+        </div>
+        <div class="header__center">
+                <img src="./src/assets/img/logo.png">
+                <a href=""  class="link">home</a>
+                <a href=""  class="link">channels</a>
+                <a href=""  class="link">packages</a>
+                <a href=""  class="link">sinema zetu</a>
+                <a href=""  class="link active">tv shows</a>
+                <a href="" class="link">movies</a>
+                <a href="" class="link">sports</a>
+                <a href="" class="link">resources</a>
+                <a href="" class="link">about us</a>
+                <a href="" class="link">support</a>
+                <a href="" class="link last">contact us</a>
+                <img src="./src/assets/img/azam_sports.png">
+        </div>
+        <div class="header__right">
+                <a href="#link" class="link"><i class="fas fa-search fa-lg"></i></a>
+        </div>
+    </header>
+    <!-- video  -->
+    <div class="hero-video">
+        <div class="video__controller">
+            <div class="play__button__container">
+                <div class="play__button">
+                    <i class="fa fa-play fa-lg"></i>
+                </div>
+                <span class="play__button__text">Play</span>
+            </div>
+            <div class="volume__controller">
+                <div class="mute__button">
+                    <i class="fa fa-volume-off fa-lg"></i>
+                </div>
+                <input class="volume__bar__range" type="range" min="0" max="1" step="0.01">
+            </div>
+        </div>
+        <video class="hero-video__file js-hero-video__file" src="./src/assets/videos/ertugrul.mov"></video>
+    </div>
+
+    <section class="movie-list">
+            <div class="movie-list__title">
+                <h2 style="text-align: center;">Azam Tv Shows</h2>
+            </div>
+            <div class="movie-list__movies">
+                <div class=movie-list__movie"">
+                    Kulfi grid
+                </div>
+                <div class=movie-list__movie"">
+                    Ertugrul grid
+                </div>
+                <div class=movie-list__movie"">
+                    The City grid
+                </div>
+                <div class=movie-list__movie"">
+                    The Good Son grid
+                </div>
+                <div class=movie-list__movie"">
+                    Two Hearts grid
+                </div>
+                <div class=movie-list__movie"">
+                    Sultan grid
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="social_list">
+    <p><i class="fab fa-instagram fa-4x"></i></p>
+      <p><i class="fab fa-facebook fa-4x"></i></p>
+      <p><i class="fab fa-twitter fa-4x"></i></p>
+      <p><i class="fab fa-youtube fa-4x"></i></p>
+    </div>
+    </section>
     <script src="bundle.js"></script>
 </body>
 </html>
