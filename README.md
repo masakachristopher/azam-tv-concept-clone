@@ -1,2 +1,2 @@
 # azam-tv-concept-clone
-## Sorry it is not responsive :laughing: :pray:
+## Sorry for not being not responsive at the moment :laughing: :pray:
